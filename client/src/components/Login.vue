@@ -10,7 +10,7 @@
                     <v-text-field label="Password" 
                        type="password"
                       v-model="password"
-                      ></v-text-field>
+                    ></v-text-field>
                     <br>
                     <div class="error" v-html="error" />
                     <v-btn 
@@ -19,7 +19,7 @@
                     @click="login">
                     Login
                     </v-btn>
-                </panel>
+          </panel>
         </v-flex>
     </v-layout>
 </template>
